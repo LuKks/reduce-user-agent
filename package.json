@@ -1,0 +1,19 @@
+{
+  "name": "reduce-user-agent",
+  "version": "0.1.0",
+  "description": "Remove repetitive patterns in User-Agent header",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuKks/reduce-user-agent.git"
+  },
+  "author": "Lucas Barrena (@LuKks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuKks/reduce-user-agent/issues"
+  },
+  "homepage": "https://github.com/LuKks/reduce-user-agent"
+}
