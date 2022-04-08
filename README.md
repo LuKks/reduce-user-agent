@@ -6,8 +6,6 @@ Remove repetitive patterns in User-Agent header.
 npm i reduce-user-agent
 ```
 
-![](https://img.shields.io/npm/v/reduce-user-agent.svg) ![](https://img.shields.io/npm/dt/reduce-user-agent.svg) ![](https://img.shields.io/github/license/LuKks/reduce-user-agent.svg)
-
 ## Usage
 ```javascript
 const reduceUA = require('reduce-user-agent')
