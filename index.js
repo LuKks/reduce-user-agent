@@ -12,7 +12,6 @@ function reduceUserAgent (ua) {
   // chrome and others
   ua = ua.replace(/AppleWebKit\/[\d.]+/i, '') // 'AppleWebKit/537.36', 'AppleWebKit/601.7.7'
   ua = ua.replace('(KHTML, like Gecko)', '')
-  // ua = ua.replace(/Safari\/[\d.]+/i, '') // 'Safari/537.36', 'Safari/601.7.7'
   ua = ua.replace('Safari/537.36', '') // 'Safari/537.36'
 
   // firefox
