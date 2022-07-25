@@ -3,9 +3,11 @@
   "version": "1.0.2",
   "description": "Remove repetitive patterns in User-Agent header",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {},
+  "scripts": {
+    "test": "standard && tape test.js",
+    "tape": "tape test.js",
+    "lint": "standard"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/LuKks/reduce-user-agent.git"
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/LuKks/reduce-user-agent/issues"
   },
-  "homepage": "https://github.com/LuKks/reduce-user-agent"
+  "homepage": "https://github.com/LuKks/reduce-user-agent",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "tape": "^5.5.3"
+  },
 }
